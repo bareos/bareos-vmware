@@ -8,8 +8,8 @@ Subprojects:
   * https://github.com/bareos/bareos (core, daemons) repository hasn't changed,
     but its content has been moved to the core subdirectory
     https://github.com/bareos/bareos/tree/master/core/
-  * https://github.com/bareos/bareos-doc (master) =>
-    https://github.com/bareos/bareos/tree/master/doc/
+  * https://github.com/bareos/bareos-docs (master) =>
+    https://github.com/bareos/bareos/tree/master/docs/
   * https://github.com/bareos/bareos-regress (master) => https://github.com/bareos/bareos/tree/master/regress/
   * https://github.com/bareos/bareos-vmware (master) => https://github.com/bareos/bareos/tree/master/vmware/
   * https://github.com/bareos/bareos-webui (master) => https://github.com/bareos/bareos/tree/master/webui/
