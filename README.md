@@ -1,24 +1,23 @@
-Bareos VMware Plugin
-====================
+This repository has been merged into https://github.com/bareos/bareos
 
-A plugin for [Bareos](http://www.bareos.org/) that can be used for agentless
-backups of virtual machines running on VMware® vSphere®.
-It makes use of CBT (Changed Block Tracking) to do space efficient full and
-incremental backups.
+The Bareos project consists of several sub projects. While these subprojects
+have been kept in different git repositories until bareos <= 17.2, we decided
+to merge them all into https://github.com/bareos/bareos
 
-The plugin uses the [VMware vSphere API Python Bindings](https://github.com/vmware/pyvmomi)
-and the [VMware Virtual Disk Development Kit (VDDK)](https://developercenter.vmware.com/web/sdk/55/vddk)
+Subprojects:
+  * https://github.com/bareos/bareos (core, daemons) repository hasn't changed,
+    but its content has been moved to the core subdirectory
+    https://github.com/bareos/bareos/tree/master/core/
+  * https://github.com/bareos/bareos-doc (master) =>
+    https://github.com/bareos/bareos/tree/master/doc/
+  * https://github.com/bareos/bareos-regress (master) => https://github.com/bareos/bareos/tree/master/regress/
+  * https://github.com/bareos/bareos-vmware (master) => https://github.com/bareos/bareos/tree/master/vmware/
+  * https://github.com/bareos/bareos-webui (master) => https://github.com/bareos/bareos/tree/master/webui/
+  * https://github.com/bareos/python-bareos (master) => https://github.com/bareos/bareos/tree/master/python-bareos/
 
-### INSTALLATION
+We only merged the master branches, so all those plus all future branches from
+bareos-18.2 onwards can be found there. The old branches (bareos <= 17.2) will
+be kept and maintained in the old repositories.
 
-Please see [Bareos VMware Plugin Documentation](http://doc.bareos.org/master/html/bareos-manual-main-reference.html#VMwarePlugin).
-
-### FAQ
-
-Please see [FAQ Section Bareos VMware Backup Plugin](http://www.bareos.org/en/faq.html)
-
-### BUGTRACKER
-
-[http://bugs.bareos.org](http://bugs.bareos.org)
 
 
