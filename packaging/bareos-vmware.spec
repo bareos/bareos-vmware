@@ -12,7 +12,7 @@ License:        AGPL-3.0
 URL:            http://www.bareos.org/
 Vendor:         The Bareos Team
 %define         sourcename bareos-vmware-%{version}
-Source:         %{sourcename}.tar.gz
+Source:         %{sourcename}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 BuildRequires:  bareos-vmware-vix-disklib-devel
